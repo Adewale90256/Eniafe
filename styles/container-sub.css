@@ -1,0 +1,107 @@
+.but-1 {
+  width: 150px;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.but-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  margin-bottom: 0;
+}
+
+.sales {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.lorem {
+  margin-top: 0;
+  width: 320px;
+}
+
+.shop-now {
+  color: white;
+  background-color: rgb(83, 83, 237);
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.sect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  gap: 100px;
+  margin-top: 30px;
+  background-color: rgb(240, 228, 228);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.num-1 {
+  display: flex;
+}
+
+.hair {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.home {
+  background-color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pic-a,
+.pic-b,
+.pic-c,
+.pic-d,
+.pic-e,
+.pic-f,
+.pic-g,
+.pic-h {
+  height: 150px;
+  cursor: pointer;
+}
+
+.pic-a:hover,
+.pic-b:hover,
+.pic-c:hover,
+.pic-d:hover,
+.pic-e:hover,
+.pic-f:hover,
+.pic-g:hover,
+.pic-h:hover {
+  height: 200px;
+  transition: height 2s;
+}
+
+.container-4-1,
+.container-4-2 {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  line-height: 0;
+}
